@@ -1,0 +1,44 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Welcome to Vecta Corporation</title>
+<!-- InstanceEndEditable -->
+<link href="../styles/normalize.css" rel="stylesheet" type="text/css">
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Testimonials" type="boolean" value="true" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+	<header>
+    	<img src="../images/logo.gif" width="170" height="125" alt="" id="logo"/>
+    	<img src="../images/header.gif" alt="" height="155" id="header"/></header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="solutions.html">Solutions</a></li>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+    <!-- InstanceBeginEditable name="Column 1" -->
+    <p>This content is outside the editable regions of the nested template and can't be modified..</p>
+    <!-- TemplateBeginEditable name="Solution description" -->
+    <div id="description"><p>Content for id "description" Goes Here</p></div><!-- TemplateEndEditable -->
+    <!-- TemplateBeginIf cond="Testimonials" --><!-- TemplateBeginEditable name="EditRegion3" -->
+    <div id="testimonials"><p>Content for  id "testimonials" Goes Here</p></div>
+    <!-- TemplateEndEditable --><!-- TemplateEndIf --><!-- InstanceEndEditable --></main>
+    <aside>
+    <!-- InstanceBeginEditable name="Column 2" -->Column 2<!-- InstanceEndEditable --></aside>
+    <footer>
+   	  <p>&copy; Copyright 2014 Vecta Corporation</p>
+    </footer>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vecta Corporation's Solutions</title>
+	<script>
+    function drawFooter() {
+        var shape = document.getElementById("footer");
+        var footer = shape.getContext("2d");
+        footer.moveTo(0, 40);
+        footer.lineTo(500, 40);
+        footer.stroke();
+        footer.font = "bold 14px sans-serif";
+        footer.fillText("Copyright 2014 - All Rights Reserved.", 0, 25);
+    }
+    </script>
+</head>
+<body onload="drawFooter()">
+	<canvas id="footer" width="500" height="50"></canvas>
+</body>
+</html>

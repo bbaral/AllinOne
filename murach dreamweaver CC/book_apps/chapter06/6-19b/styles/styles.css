@@ -1,0 +1,90 @@
+@charset "utf-8";
+html {
+	background-color: #DFE3E6;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	width: 540px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+}
+h2 {
+	font-size: 1.4em;
+	color: #CC1C0D;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+h3 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.3em;
+	margin-left: 0px;
+}
+header {
+	height: 120px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+ul li {
+	margin-top: .5em;
+}
+main img {
+	float: left;
+	margin-top: 0px;
+	margin-right: .5em;
+	margin-bottom: .5em;
+	margin-left: 0px;
+}
+p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+}
+nav, main {
+	float: left;
+}
+nav {
+	width: 140px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+main {
+	width: 390px;
+	float: left;
+	padding-left: 10px;
+}
+footer {
+	clear: both;
+}
+footer p {
+	font-size: .9em;
+	text-align: right;
+	margin-bottom: 0px;
+	padding-top: .5em;
+}
+#chat {
+	width:150px;
+	height:55px;
+	position: fixed;
+	left:0;
+	top:35px;
+}

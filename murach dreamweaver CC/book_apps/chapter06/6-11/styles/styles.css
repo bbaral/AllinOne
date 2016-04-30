@@ -1,0 +1,21 @@
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 500px;
+	margin: 20px auto 20px auto;	
+}
+h2 {
+	color: #CC1C0D;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: .5em;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+ul {
+	margin-top: 0px;
+}
+li {
+	margin-bottom: .5em;
+	padding-bottom: 0.5em;
+}

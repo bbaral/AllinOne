@@ -1,0 +1,30 @@
+@charset "utf-8";
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 500px;
+}
+caption {
+	font-size: 140%;
+	font-weight: bold;
+	padding-bottom: .4em;
+}
+table {
+	border: 1px solid #000000;
+}
+th {
+	background-color: #BCBCBC;
+}
+th, td {
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	padding-right: 0.7em;
+	padding-left: 0.7em;
+	text-align: right;
+	border: 1px solid #000000;
+}
+#sales {
+	text-align: center;
+}
+#year {
+	vertical-align: bottom;
+}

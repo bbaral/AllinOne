@@ -1,0 +1,20 @@
+@charset "utf-8";
+body {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+div	{
+	width: 300px;
+	height: 30px;
+	background-color: #EDEDED;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+input {
+	width: 100px;
+	margin-right: 5px;
+}

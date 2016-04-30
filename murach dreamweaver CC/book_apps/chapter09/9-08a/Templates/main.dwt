@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome to Vecta Corporation</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/normalize.css" rel="stylesheet" type="text/css">
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+    	<img src="../images/logo.gif" width="170" height="125" alt="" id="logo"/>
+    	<img src="../images/header.gif" alt="" height="155" id="header"/></header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="solutions.html">Solutions</a></li>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<section>
+    <!-- TemplateBeginEditable name="Column 1" -->Column 1<!-- TemplateEndEditable --></section>
+    <aside>
+    <!-- TemplateBeginEditable name="Column 2" -->Column 2<!-- TemplateEndEditable --></aside>
+    <section id="events"><h3>Company Events</h3>
+      <table width="690px" border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#E0E0E0">
+          <td width="270"><strong>Event Name</strong></td>
+          <td width="270"><strong>Location</strong></td>
+          <td width="150"><strong>Date / Time</strong></td>
+        </tr>
+        <tr>
+          <td width="270">&nbsp;</td>
+          <td width="270">&nbsp;</td>
+          <td width="150">&nbsp;</td>
+        </tr>
+        <!-- TemplateBeginRepeat name="CompanyEvents" -->
+          <tr>
+            <td width="270"><!-- TemplateBeginEditable name="EditRegion5" -->&nbsp;<!-- TemplateEndEditable --></td>
+            <td width="270"><!-- TemplateBeginEditable name="EditRegion6" -->&nbsp;<!-- TemplateEndEditable --></td>
+            <td width="150"><!-- TemplateBeginEditable name="EditRegion7" -->&nbsp;<!-- TemplateEndEditable --></td>
+          </tr>
+        <!-- TemplateEndRepeat -->
+      </table>
+    </section>
+    <footer>
+   	  <p>&copy; Copyright 2013 Vecta Corporation</p>
+    </footer>
+</body>
+</html>

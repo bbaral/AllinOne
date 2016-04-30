@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery UI - Datepicker Widget</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.datepicker.custom.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<p>Which day may a Vecta Corp. sales representative contact you?</p>
+<p>
+  <input type="text" id="schedule"/>
+</p>
+<script type="text/javascript">
+$(function() {
+	$( "#schedule" ).datepicker({
+		changeMonth:true,
+		changeYear:true,
+		numberOfMonths:2,
+		showButtonPanel:true
+	}); 
+});
+</script>
+</body>
+</html>

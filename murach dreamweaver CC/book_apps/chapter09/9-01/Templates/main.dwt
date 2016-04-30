@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Welcome to Vecta Corporation</title>
+  <!-- TemplateEndEditable -->
+  <link href="../styles/normalize.css" type="text/css" rel="stylesheet">
+  <link href="../styles/styles.css" type="text/css" rel="stylesheet">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<main>
+		<header></header>
+		<nav><!-- TemplateBeginEditable name="NavMenu" -->
+		  <ul>
+		    <li><a href="../index.html">Home</a></li>
+		    <li><a href="../aboutus.html">About Us</a></li>
+		    <li><a href="../solutions.html">Solutions</a></li>
+		    <li><a href="../support.html">Support</a></li>
+		    <li><a href="../contactus.html">Contact Us</a></li>
+	    </ul>
+		<!-- TemplateEndEditable --></nav>
+		<section><!-- TemplateBeginEditable name="Column1" --><!-- TemplateEndEditable -->
+		</section>
+		<aside><!-- TemplateBeginEditable name="Column2" --><!-- TemplateEndEditable -->
+		</aside>
+		<footer></footer>
+	</main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Set Text</title>
+<style>
+</style>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_setTextOfLayer(objId,x,newText) { //v9.0
+  with (document) if (getElementById && ((obj=getElementById(objId))!=null))
+    with (obj) innerHTML = unescape(newText);
+}
+</script>
+</head>
+
+<body>
+<p>Which solution offering does your organization currently use?</p>
+<p>
+  <input name="button" type="button" id="button" onClick="MM_setTextOfLayer('solution','','You chose the solution: vProspect 2.0')" value="vProspect 2.0">
+  <input name="button2" type="button" id="button2" onClick="MM_setTextOfLayer('solution','','You chose the solution: vConvert 2.0')" value="vConvert 2.0">
+  <input name="button3" type="button" id="button3" onClick="MM_setTextOfLayer('solution','','You chose the solution: vRetain 1.0')" value="vRetain 1.0">
+</p>
+<div id="solution"></div>
+</body>
+</html>

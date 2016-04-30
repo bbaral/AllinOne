@@ -1,0 +1,21 @@
+@charset "utf-8";
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+h2 {
+	font-size: 1.5em;
+	color: #CC1C0D;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #7D7D7D;
+	text-transform: uppercase;
+}
+header {
+	height:	120px;
+	text-align:	center;
+}

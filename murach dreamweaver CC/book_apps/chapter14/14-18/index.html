@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Submit Survey</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<form action="http://www.vectacorp.com/vc/scripts/contactus.asp" method="post" name="contactform" id="contactform">
+  <h1>Your information:</h1>
+    <label for="number">Monthly Investment:</label>
+    <input name="number" type="number" id="number" max="1000" min="100" step="100">
+    <br>
+	<label for="range">Rate this service from 1 to 5:</label>
+    <input name="range" type="range" id="range" max="5" min="1" step="1"><br>
+    <input type="submit" name="submit" id="submit" value="Submit Survey">
+</form>
+</body>
+</html>

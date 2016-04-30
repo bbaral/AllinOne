@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery UI - Accordion Widget</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.accordion.custom.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<h2> Vecta Corp. FAQs</h2>
+<div id="faqs">
+  <h3><a href="#">What makes Vecta Corp. different from other software companies?</a></h3>
+  <div>
+    <p>Unlike most software companies, Vecta Corp. developed its vSolutions entirely in-house without the use of add-ons. All of our software packags are sold as a fully-integrated  software suite. And we provide application source code with every vSolution sale.</p>
+  </div>
+  <h3><a href="#">How frequently does Vecta Corp. release a major software upgrade?</a></h3>
+  <div>
+    <p>Vecta Corp. typically releases a new, major upgrade every 18 to 24 months. All Vecta Corp. customers on annual maintenance receive the latest software upgrades and releases at no additional cost.</p>
+  </div>
+  <h3><a href="#">How does Vecta Corp. license its software?</a></h3>
+  <div>
+    <p>All Vecta Corp. software is licensed on a concurrent-user basis. All of our software packages are sold as a fully-integrated software suite.</p>
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#faqs" ).accordion({
+		animate:{easing: "swing"}
+	}); 
+});
+</script>
+</body>
+</html>

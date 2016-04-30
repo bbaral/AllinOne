@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome to Vecta Corporation</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/normalize.css" type="text/css" rel="stylesheet">
+<link href="../styles/styles.css" type="text/css" rel="stylesheet">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Menu1" type="boolean" value="true" -->
+<!-- TemplateParam name="Menu2" type="boolean" value="true" -->
+</head>
+
+<body>
+	<main>
+		<header></header>
+		<nav><!-- TemplateBeginIf cond="Menu1" --> <!-- #BeginLibraryItem "/Library/navMenu1.lbi" -->
+        <ul>
+          <li><a href="../admin.html">Home</a></li>
+          <li><a href="../engineering.html">Engineering</a></li>
+          <li><a href="../marketing.html">Marketing</a></li>
+          <li><a href="../sales.html">Sales</a></li>
+        </ul>
+        <!-- #EndLibraryItem --> <!-- TemplateEndIf -->
+		<!-- TemplateBeginIf cond="Menu2" --> <!-- #BeginLibraryItem "/Library/navMenu2.lbi" -->
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../aboutus.html">About Us</a></li>
+          <li><a href="../solutions.html">Solutions</a></li>
+          <li><a href="../support.html">Support</a></li>
+          <li><a href="../contactus.html">Contact Us</a></li>
+        </ul>
+        <!-- #EndLibraryItem --> <!-- TemplateEndIf -->
+        </nav>
+		<section><!-- TemplateBeginEditable name="Column1" --><!-- TemplateEndEditable -->
+		</section>
+		<aside><!-- TemplateBeginEditable name="Column2" --><!-- TemplateEndEditable -->
+		</aside>
+		<footer></footer>
+	</main>
+</body>
+</html>

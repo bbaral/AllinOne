@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jump Menu</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+function MM_jumpMenuGo(objId,targ,restore){ //v9.0
+  var selObj = null;  with (document) { 
+  if (getElementById) selObj = getElementById(objId);
+  if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0; }
+}
+</script>
+</head>
+
+<body>
+<p>
+  <label for="menu">Choose a website to jump to:</label>
+  <select name="menu" id="menu">
+    <option value="http://www.google.com" selected>Go to Google</option>
+    <option value="http://www.murach.com">Go to Murach Books</option>
+    <option value="http://www.modulemedia.com">Go to Module Media</option>
+    <option value="http://www.adobe.com">Go to Adobe</option>
+  </select>
+<input name="button" type="button" id="button" onClick="MM_jumpMenuGo('menu','parent',0)" value="Go">
+</p>
+</body>
+</html>

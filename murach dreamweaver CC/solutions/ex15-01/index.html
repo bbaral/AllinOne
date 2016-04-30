@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Show-Hide Elements</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('file:///C|/dreamweaver/exercises/ex15-01/images/01.jpg','file:///C|/dreamweaver/exercises/ex15-01/images/02.jpg','file:///C|/dreamweaver/exercises/ex15-01/images/03.jpg','file:///C|/dreamweaver/exercises/ex15-01/images/04.jpg')">
+<h1>Vecta Corporation HQ Tour</h1>
+<img src="images/01_thumb.jpg" alt="" width="100" height="63" class="thumbnail" onMouseOver="MM_showHideLayers('image01','','show','image02','','hide','image03','','hide','image04','','hide')"/> <img src="images/02_thumb.jpg" alt="" width="100" height="63" class="thumbnail" onMouseOver="MM_showHideLayers('image01','','hide','image02','','show','image03','','hide','image04','','hide')"/> <img src="images/03_thumb.jpg" alt="" width="100" height="63" class="thumbnail" onMouseOver="MM_showHideLayers('image01','','hide','image02','','hide','image03','','show','image04','','hide')"/> <img src="images/04_thumb.jpg" alt="" width="100" height="63" class="thumbnail" onMouseOver="MM_showHideLayers('image01','','hide','image02','','hide','image03','','hide','image04','','show')"/> <img src="images/01.jpg" alt="" width="480" height="300" id="image01"/> <img src="images/02.jpg" alt="" width="480" height="300" id="image02"/> <img src="images/03.jpg" alt="" width="480" height="300" id="image03"/> <img src="images/04.jpg" alt="" width="480" height="300" id="image04"/>
+</body>
+</html>

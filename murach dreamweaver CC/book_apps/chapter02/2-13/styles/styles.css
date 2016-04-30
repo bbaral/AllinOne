@@ -1,0 +1,27 @@
+/***************************************************
+* Description: Simple style sheet for vectacorp.com
+* Author:      Anne Boehm
+***************************************************/
+/* Adjust the styles for the body */
+body {
+	width: 700px;
+	margin: 0 auto;	                   /* Center the page horizontally */
+}
+/* Adjust the styles for the sections */
+#welcome {
+	width: 500px;
+}
+#solutions {
+	width: 340px;
+}
+aside img {
+	float: left;
+	margin: 5px 5px 0 0;
+}
+/* Adjust the styles for the headings */
+h1 {
+	color: #CC1C0D;
+}
+h2 {
+	border-bottom: 3px solid #CC1C0D;  /* Add a line below h2 headings */
+}

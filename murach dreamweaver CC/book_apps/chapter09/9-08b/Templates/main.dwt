@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome to Vecta Corporation</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/normalize.css" rel="stylesheet" type="text/css">
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+    	<img src="../images/logo.gif" width="170" height="125" alt="" id="logo"/>
+    	<img src="../images/header.gif" alt="" height="155" id="header"/></header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="solutions.html">Solutions</a></li>
+			<li><a href="support.html">Support</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+    <!-- TemplateBeginEditable name="Column 1" -->Column 1<!-- TemplateEndEditable --></main>
+    <aside>
+    <!-- TemplateBeginEditable name="Column 2" -->Column 2<!-- TemplateEndEditable --></aside>
+    <section id="events">
+      <h3>Company Events</h3>
+      <table width="690" border="0" cellspacing="0" cellpadding="0">
+        <tr align="left" bgcolor="#E0E0E0">
+          <th width="270" scope="col">Event Name</th>
+          <th width="270" scope="col">Location</th>
+          <th width="150" scope="col">Date / Time</th>
+        </tr>
+        </table>
+      <!-- TemplateBeginRepeat name="Events" -->
+      <table width="690" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="270"><!-- TemplateBeginEditable name="Event" -->Event<!-- TemplateEndEditable --></td>
+          <td width="270"><!-- TemplateBeginEditable name="Location" -->Location<!-- TemplateEndEditable --></td>
+          <td width="150"><!-- TemplateBeginEditable name="DateTime" -->DateTime<!-- TemplateEndEditable --></td>
+        </tr>
+      </table>
+      <!-- TemplateEndRepeat --></section>
+    <footer>
+   	  <p>&copy; Copyright 2014 Vecta Corporation</p>
+</footer>
+</body>
+</html>

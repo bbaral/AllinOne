@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Mobile - Two Column Layout</title>
+    <link href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div data-role="page" id="home">
+  <div data-role="header" data-theme="a">
+    <h1><strong>Testimonials</strong></h1>
+    <div data-role="navbar">
+        <ul>
+             <li><a href="#home" class="ui-btn-active" data-icon="home" data-theme="b">Home</a></li>
+             <li><a href="#solutions" data-icon="grid" data-theme="b">Solutions</a></li>
+             <li><a href="#contactus" data-icon="info" data-theme="b">Contact Us</a></li>
+        </ul>
+    </div>
+  </div>
+  <div data-role="content">
+    <p><strong>Client Testimonials</strong></p>
+    <div class="ui-grid-a">
+      <div class="ui-block-a">
+        <p><a href="#americantire" data-rel="dialog">Aaron D. Tyres</a><br>CEO<br>American Tire</p>
+      </div>
+      <div class="ui-block-b">
+        <p><a href="#profitsfinancial" data-rel="dialog">Robin Banks</a><br>CTO<br>Profits Financial</p>
+      </div>
+      <div class="ui-block-a">
+        <p><a href="#books" data-rel="dialog">Paige Turner</a><br>General Manager<br>Turner's Books and Magazines</p>
+      </div>
+      <div class="ui-block-b">
+        <p><a href="#chevy" data-rel="dialog">Iona Ford</a><br>President<br>Chevy Dealer's Association</p>
+      </div>
+    </div>
+  </div>
+  <div data-role="footer">
+    <h4>Copyright &copy; 2014</h4>
+  </div>
+</div>
+
+<div data-role="page" id="americantire">
+  <div data-role="header" data-theme="a">
+    <h1><strong>Aaron D. Tyres</strong></h1>
+  </div>
+  <div data-role="content">
+    <p>Throughout the years we have worked with Vecta Corp., we have always been amazed at the level of dedication that they have provided our company.</p>
+  </div>
+</div>
+
+<div data-role="page" id="profitsfinancial">
+  <div data-role="header" data-theme="a">
+    <h1><strong>Robin Banks</strong></h1>
+  </div>
+  <div data-role="content">
+    <p>Incredible results from an incredible effort by the Vecta Corp. team! We are very pleased with the business benefits we have received by working with them.</p>
+  </div>
+</div>
+
+<div data-role="page" id="books">
+  <div data-role="header" data-theme="a">
+    <h1><strong>Paige Turner</strong></h1>
+  </div>
+  <div data-role="content">
+    <p>We use vProspect 2.0 at our company. This application absolutely changes the way we look for and retain clients at our bookstore.” </p>
+  </div>
+</div>
+
+<div data-role="page" id="chevy">
+  <div data-role="header" data-theme="a">
+    <h1><strong>Iona Ford</strong></h1>
+  </div>
+  <div data-role="content">
+    <p>What this type of technology enables is a remote connection to our dealership network. It not only provides immediate feedback, but additional expert insight into a sector that is difficult to tap into.</p>
+  </div>
+</div>
+
+</body>
+</html>

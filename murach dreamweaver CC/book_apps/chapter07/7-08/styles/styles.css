@@ -1,0 +1,148 @@
+@charset "utf-8";
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: #DFE3E6;
+}
+main {
+	width: 960px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFFFFF;
+}
+#logo {
+	width: 180px;
+	float: left;
+}
+nav {
+	width: 780px;
+	height: 130px;
+	float: left;
+	text-align: right;
+}
+nav ul {
+	list-style-type: none;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 80px;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	margin-left: 30px;
+	margin-right: 5px;
+	position:relative;
+}
+nav ul li ul {
+	display:none;
+	margin-top:0;
+}
+nav ul li:hover ul {
+	display:block;
+	background:#DFE3E6;
+	position:absolute;
+	width:120px;
+}
+nav ul li:hover ul li a {
+	display:block;
+	text-align:center;
+}
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 1.2em;
+	background-color: #DFE3E6;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+nav ul li a:hover {
+	background-color: #CC1C0D;
+	color: #FFFFFF;
+}
+#tagline {
+	width: 960px;
+	clear: both;
+}
+#tagline img {
+	max-width: 100%;
+	height: auto;
+}
+#columnleft {
+	width: 220px;
+	float: left;
+	padding-left: 10px;
+}
+#columnmid {
+	width: 460px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+#columnright {
+	width: 220px;
+	float: left;
+	padding-right: 10px;
+}
+footer {
+	width: 960px;
+	height: 30px;
+	clear: both;
+	background-image: url(../images/footer.gif);
+}
+#columnmid img {
+	float: left;
+	margin-top: 4px;
+	margin-right: 5px;
+}
+h1 {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	color: #CC1C0D;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border: 1px solid #929CA4;
+	border-radius: 5px;
+	background-color: #DFE3E6;
+	background-image: url(../images/icon_checker.gif);
+	background-repeat: no-repeat;
+	background-position: 7px 9px;
+}
+h2 {
+	font-size: 1.1em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.2em;
+	margin-left: 0px;
+}
+p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+}
+
+@media screen and (max-width:479px){
+	
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+	
+}
+
+@media screen and (min-width:768px) and (max-width:959px){
+	
+}

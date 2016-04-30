@@ -1,0 +1,17 @@
+body {
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+main {
+	width: 600px;
+	margin: 20px auto 0 auto;
+}
+aside {
+	width: 200px;
+	float: left;
+	min-height: 200px;
+}
+#middle {
+	width: 400px;
+	float: left;
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+main {
+	width: 500px;
+	margin: 0 auto 0 auto;	
+}
+h2 {
+	font-size: 1.4em;
+	color: #CC1C0D;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+	border: 1px solid #929CA4;
+	border-radius: 5px;
+	padding-top: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.2em;
+	padding-left: 0.2em;
+	-webkit-box-shadow: 3px 3px 5px #999999;
+	box-shadow: 3px 3px 5px #999999;
+}
+h3 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.4em;
+	margin-left: 0px;
+}
+header {
+	height: 120px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+}
+h3, p {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

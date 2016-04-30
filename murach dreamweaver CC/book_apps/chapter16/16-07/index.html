@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery UI - Button and Dialog Widgets</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.button.custom.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.dialog.custom.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<button id="Button1">View VProspect 2.0 Details</button>
+<div id="vprospect-dialog">Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.
+  <div id="Dialog1">Content for New Dialog Goes Here</div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Button1" ).button(); 
+});
+$(function() {
+	$( "#vprospect-dialog" ).dialog({
+		title:"vProspect 2.0",
+		autoOpen:false
+	});
+	$( "#Button1" ).click(function(){
+ 		$( "#vprospect-dialog" ).dialog("open");
+	});
+});
+$(function() {
+	$( "#Dialog1" ).dialog(); 
+});
+</script>
+</body>
+</html>

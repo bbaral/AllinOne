@@ -1,0 +1,47 @@
+body {
+	font-size: 0.8em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+}
+main {
+	width: 700px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+header {
+	height: 120px;
+	text-align: center;
+}
+section {
+	float: left;
+	width: 340px;
+	margin-right: 20px;
+}
+aside {
+	float: left;
+	width: 340px;
+}
+h2 {
+	font-size: 1.4em;
+	color: #CC1C0D;
+	text-shadow: 3px 3px 5px #999999;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+h3 {
+	margin-bottom: 0.2em;
+}
+p {
+	margin-top: 0px;
+}
+footer {
+	clear: left;
+	text-align: right;
+}

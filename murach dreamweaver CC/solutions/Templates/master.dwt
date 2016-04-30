@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Vecta Corp Home Page</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../ex09-01/styles/normalize.css">
+<link href="../ex09-01/styles/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Social Editable" type="boolean" value="true" -->
+</head>
+
+<body>
+<main>
+<header><img src="../ex09-01/images/header.gif" width="960" height="172" alt="Vecta Corp Logo"/></header>
+<nav>
+  <ul>
+  <li><a href="../ex09-01/index.html">Home</a></li>
+  <li><a href="../ex09-01/solutions.html">Solutions</a></li>
+  <li><a href="../ex09-01/aboutus.html">About Us</a></li>
+  <li><a href="../ex09-01/support.html">Support</a></li>
+  <li><a href="../ex09-01/forum.html">Forum</a></li>
+  </ul>
+</nav>
+<!-- TemplateBeginEditable name="Main Editable" --><!-- TemplateEndEditable -->
+<footer><!-- TemplateBeginEditable name="Copyright Editable" --><p id="copyright"><!-- #BeginLibraryItem "/Library/copyright.lbi" -->
+&copy; Copyright 2015 Module Media
+<!-- #EndLibraryItem --></p>
+<!-- TemplateEndEditable --><!-- TemplateBeginIf cond="_document['Social Editable']" -->
+<p id="sociallinks"><a href="../ex09-01/facebook">Facebook</a> <a href="../ex09-01/twitter">Twitter</a> <a href="../ex09-01/linkedin">LinkedIn</a></p>
+<!-- TemplateEndIf --></footer>
+</main>
+</body>
+</html>

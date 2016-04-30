@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to Vecta Corp.</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<main>
+    <header></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section>
+		<h2>Contact Us</h2>
+		
+		<form name="contactform" action="http://www.vectacorp.com/vc/scripts/contactus.asp" method="post">
+			<fieldset><legend><strong>Contact a Sales Representative</strong></legend>
+				<label for="name">Name:</label>
+				<input name="name" type="text" autofocus required id="name" maxlength="30">
+                <br>
+				<label for="companyname">Company Name:</label>
+				<input name="companyname" id="companyname" type="text" required maxlength="30">
+                <br>
+				<label for="phonenumber">Phone:</label>
+				<input name="phonenumber" id="phonenumber" type="tel" required pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-9999" maxlength="25">
+                <br>
+				<label for="email">Email:</label>
+				<input name="email" id="email" type="email" required maxlength="30">
+                <br>
+				<label for="product">Product interest:</label>
+				<input type="checkbox" name="product" value="vProspect"> 
+				vProspect 2.0&nbsp;
+				<input type="checkbox" name="product" value="vConvert"> 
+				vConvert 2.0&nbsp;
+				<input type="checkbox" name="product" value="vRetain"> vRetain 1.0
+                <br>
+				<label for="infrastructure">Current infrastructure?</label>
+                <input type="radio" name="infrastructure" value="Mac"> 
+                Mac&nbsp;
+                <input type="radio" name="infrastructure" value="Linux"> 
+                Linux&nbsp;
+				<input type="radio" name="infrastructure" value="Unix"> 
+				Unix&nbsp;
+ 				<input type="radio" name="infrastructure" value="Windows" >Windows
+                <br>
+				<label for="companysize">Number of employees:</label>
+				<select name="companysize" id="companysize" required>
+					<option value="1-10">1-10</option>
+					<option value="11-100">11-100</option>
+					<option value="101-1000">101-1000</option>
+					<option value="More than 1000">More than 1000</option>
+				</select>
+                <br>
+				<label for="hearaboutus">How did you hear about us?</label>
+				<select name="hearaboutus" id="hearaboutus" size="4" required multiple>
+					<option value="Magazine Ad">Magazine Ad</option>
+					<option value="Radio Ad">Radio Ad</option>
+					<option value="TV Ad">TV Ad</option>
+					<option value="Word of Mouth">Word of Mouth</option>
+					<option value="Other">Other</option>
+				</select>
+                <br>
+				<label for="questions">Questions or comments?</label>
+				<textarea name="questions" id="questions" cols="30" rows="2"></textarea>
+                <br><br>
+				<input type="submit" name="submit" id="submit" value="Submit Now">
+			</fieldset>
+		</form>
+        <br>
+    </section>
+    <footer></footer>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+

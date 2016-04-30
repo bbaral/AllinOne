@@ -1,0 +1,43 @@
+@charset "utf-8";
+body {
+	font-size: 11pt;
+	background-color: #FFFFFF;
+	line-height: normal;
+}
+main {
+	width: 8in;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+section, aside {
+	width: 3.75in;
+}
+section {
+	margin-right: .5in;
+}
+header {
+	display: none;
+}
+nav {
+	display: none;
+}
+footer {
+	display: none;
+}
+h2 {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-size: 14pt;
+	background-color: none;
+	background-image: none;
+	border-style: none;
+	border-width: 0px;
+	text-shadow: none;
+}
+p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}

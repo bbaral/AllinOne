@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Vecta Corp.</title>
+<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<main>
+  <header><img src="images/header.png" width="600" height="110" alt=""/></header>
+  <section>
+    <h1>Contact Us</h1>
+    <form name="contactform" action="submit.html" method="get">
+      <fieldset>
+        <legend>Contact a Sales Representative</legend>
+        <label for="name">Name:</label>
+        <input name="name" type="text" autofocus required id="name">
+        <br>
+        <label for="company">Company name:</label>
+        <input name="company" type="text" required id="company">
+        <br>
+        <label for="phone">Phone:</label>
+        <input name="phone" type="tel" required id="phone">
+        <br>
+        <label for="email">Email:</label>
+        <input name="email" type="email" required id="email">
+        <br>
+        <label>Products of interest:</label>
+        <input name="vProspect" type="checkbox" id="vProspect">
+        <label class=defaults for="vProspect">vProspect 2.0 </label>
+        <input type="checkbox" name="vConvert" id="vConvert">
+        <label class=defaults for="vConvert">vConvert 2.0 </label>
+        <input type="checkbox" name="vRetain" id="vRetain">
+        <label class=defaults for="vRetain">vRetain 1.0</label>
+        <br>
+        <label>Operating system:</label>
+        <label class=defaults>
+          <input type="radio" name="system" value="windows" id="system_0">
+          Windows</label>
+        <label class=defaults>
+          <input type="radio" name="system" value="mac" id="system_1">
+          Mac</label>
+        <label class=defaults>
+          <input type="radio" name="system" value="linux" id="system_2">
+          Linux</label>
+        <br>
+        <label for="employees">Number of employees:</label>
+        <select name="employees" id="employees">
+          <option value="1-10">1-10</option>
+          <option value="11-100">11-100</option>
+          <option value="100+">Over 100</option>
+        </select>
+        <br>
+        <label for="hearAbout">How did you hear about us:</label>
+        <select name="hearAbout" size="3" multiple id="hearAbout">
+          <option value="word">Word of Mouth</option>
+          <option value="facebook">FaceBook</option>
+          <option value="twitter">Twitter</option>
+          <option value="linkedin">LinkedIn</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <input type="submit" name="submit" id="submit" value="Submit">
+      </fieldset>
+    </form>
+  </section>
+</main>
+</body>
+</html>

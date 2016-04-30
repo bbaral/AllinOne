@@ -1,0 +1,44 @@
+@charset "utf-8";
+html {
+	background-color: #DFE3E6;
+}
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	width: 700px;
+	font-size: 0.8em;
+	background-color: #FFFFFF;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+}
+main {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+h1 {
+	font-size: 2em;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+table {
+	text-align: right;
+	border-width: 1px;
+	border-style: solid;
+	border-collapse: collapse;
+}
+
+#tableHeader {
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+th, td {
+	padding-right: 1em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-left: 1em;
+}

@@ -1,0 +1,33 @@
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 500px;
+	margin: 20px auto 20px auto;	
+}
+h2, h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: .5em;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+h2 {
+	color: #CC1C0D;
+}
+ul {
+	margin-top: 0px;
+	list-style-position: inside;
+	padding-left: 1em;
+}
+ul li {
+	margin-bottom: .5em;
+	padding-bottom: 0.5em;
+}
+ol {
+	margin-top: 0px;
+	list-style-type: lower-alpha;
+}
+ol li {
+	margin-bottom: .5em;
+	padding-left: 0.25em;
+}

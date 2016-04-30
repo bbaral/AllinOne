@@ -1,0 +1,27 @@
+@charset "utf-8";
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	background-color: #DFE3E6;
+}
+h1 {
+	color: #CC1C0D;
+}
+h2 {
+	color: #CC1C0D;
+}
+footer {
+	text-align: left;
+}
+header {
+	text-align: left;
+}
+main {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	background-color: white;
+}

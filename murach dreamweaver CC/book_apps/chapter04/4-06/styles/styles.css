@@ -1,0 +1,16 @@
+@charset "utf-8";
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	width: 500px;
+}
+h2 {
+	color: #CC1C0D;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+main, header {
+	margin-left: 10px;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery UI - Tabs Widget</title>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.tabs.custom.min.js" type="text/javascript"></script>
+<style>
+	.ui-tabs-vertical { width: 55em; }
+	.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+	.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+	.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+	.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+	.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+</style>
+</head>
+
+<body>
+<h2>Vecta Corp. Management Team</h2>
+<div id="management">
+  <ul>
+    <li><a href="#tabs-1">Agnes</a></li>
+    <li><a href="#tabs-2">Damon</a></li>
+    <li><a href="#tabs-3">Herbert</a></li>
+    <li><a href="#tabs-4">Mike</a></li>
+    <li><a href="#tabs-5">Wilbur</a></li>
+</ul>
+  <div id="tabs-1">
+    <p><strong>Vice President, Accounting</strong><br>
+      With over 14 years of public accounting and business advisory service experience in the Tongas, Ecuador, Canada, Botswana and the US, Agnes is the most seasoned and diverse member of the Vecta Corp. team. Aside from providing professional services to multinational and public companies, Agnes primarily handles Vecta Corp's financial and account management.</p>
+  </div>
+  <div id="tabs-2">
+    <p><strong>Director of Development</strong><br>
+      Damon creates learning materials for Vecta Corp. and consults with customers to integrate vSolutions into their production pipeline and business processes.</p>
+  </div>
+  <div id="tabs-3">
+    <p><strong>Director of Human Resources</strong><br>
+      Herbert joined the Vecta Corp. team in October 1999 as our first Human Resources Director. Herbert's work has a particular focus on assuring complete employee satisfaction and loyalty.</p>
+  </div>
+  <div id="tabs-4">
+    <p><strong>Vice President, Sales and Marketing</strong><br>
+      Mike joined Vecta Corp. in early 1998 and worked in business development roles prior to being assigned to lead Vecta Corp's global vSolutions sales and marketing team in the summer of 2000. He initiated Vecta Corp's global branding and marketing campaigns as vSolutions global director and then Vice President of Marketing. In 2001, his role expanded to include overall responsibility for corporate marketing, sales, and communications. </p>
+  </div>
+  <div id="tabs-5">
+    <p><strong>Founder and CEO</strong><br>
+    While Wilbur is the founder and CEO of Vecta Corp, he is primarily known for being the pioneer in the creation of vSolutions. Wilbur has led the commercialization of vSolution technology and its success as the world's fastest-growing, most advanced technologies in its respective industry.</p>
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#management" ).tabs({
+		selected:1,
+		collapsible:true
+	}); 
+});
+</script>
+</body>
+</html>

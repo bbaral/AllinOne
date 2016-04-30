@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+label {
+	float: left;
+	width: 6em;
+	text-align: right;
+}
+input {
+	margin-bottom: .5em;
+	margin-left: 1em;
+}
+#SubmitForm {
+	margin-left: 8.1em;
+}

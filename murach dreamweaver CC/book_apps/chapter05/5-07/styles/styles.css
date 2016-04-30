@@ -1,0 +1,18 @@
+body {
+	font-size: 0.8em;
+	line-height: 1.6em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main {
+	width: 500px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #7D7D7D;
+	text-transform: uppercase;
+}

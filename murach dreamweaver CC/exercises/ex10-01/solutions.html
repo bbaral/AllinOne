@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercise 10-1</title>
+<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+<script>
+    function drawFooter() {
+        var shape = document.getElementById("footer");
+        var footer = shape.getContext("2d");
+        footer.moveTo(0, 40);
+        footer.lineTo(500, 40);
+		footer.strokeStyle = "blue";
+        footer.stroke();
+        footer.font = "bold 14px sans-serif";
+        footer.fillText("Copyright 2014 - All Rights Reserved.", 0, 25);
+    }
+    </script>
+</head>
+
+<body>
+<header><img src="images/header.png" alt=""/>
+</header>
+
+<main>
+  <h1>Solutions</h1>
+</main>
+
+<footer>
+</footer>
+
+</body>
+</html>

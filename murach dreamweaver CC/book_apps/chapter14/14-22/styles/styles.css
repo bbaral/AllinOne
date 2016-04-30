@@ -1,0 +1,72 @@
+body {
+	background: #DFE3E6;
+	font-size: 0.8em;
+	line-height: 1.6em;
+}
+main {
+	width: 960px;
+	background: #FFFFFF url('../images/bg.gif') repeat-y;
+	margin: 20px auto 0 auto;
+}
+header {
+	width: 960px;
+	height: 235px;
+	background: url('../images/header.gif') no-repeat;
+}
+nav {
+	width: 230px;
+	float: left;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li a {
+	display: block;
+	margin-bottom: 15px;
+	width: 120px;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	background: #EDEDED;
+	color: #000000;
+}
+section {
+	float: left;
+	min-height: 200px;
+	width: 690px;
+	margin: 0 20px;
+}
+section h2, nav ul li a {
+	background: #DFE3E6 url('../images/icon_checker.gif') no-repeat 7px;
+	font-size: 1.1em;
+	color: #CC1C0D;
+	font-weight: bold;
+	padding: 3px 0 3px 20px;
+	border: 1px solid #929CA4;
+}
+footer {
+	height: 23px;
+	background: url('../images/footer.gif') no-repeat;
+	clear: both;
+}
+fieldset {
+	padding:20px;	
+}
+label {
+	float: left;
+	width: 14em;
+}
+input, select, textarea {
+	margin-bottom: .5em;
+}
+#name, #companyname, #phonenumber, #email {
+	width: 250px;
+}
+#questions {
+	width: 250px;
+	height: 100px;
+}
+#submit {
+	margin-left: 14em;
+	width: 10em;
+}

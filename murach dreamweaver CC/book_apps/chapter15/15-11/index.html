@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Change Property</title>
+<script type="text/javascript">
+function MM_changeProp(objId,x,theProp,theValue) { //v9.0
+  var obj = null; with (document){ if (getElementById)
+  obj = getElementById(objId); }
+  if (obj){
+    if (theValue == true || theValue == false)
+      eval("obj.style."+theProp+"="+theValue);
+    else eval("obj.style."+theProp+"='"+theValue+"'");
+  }
+}
+</script>
+<link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<p>
+  <input name="button" type="button" id="button" onClick="MM_changeProp('myDiv','','backgroundColor','silver','DIV')" value="Change Background Color">
+</p>
+<div id="myDiv"> 
+  <h1>Welcome</h1>
+  <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. </p>
+</div>
+</body>
+</html>

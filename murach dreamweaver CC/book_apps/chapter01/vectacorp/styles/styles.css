@@ -1,0 +1,41 @@
+body {
+	font-size:		0.8em;
+	line-height:	1.6em;
+}
+main {
+	width:700px;
+	margin: 0 auto;	
+}
+header {
+	height:	120px;
+	width: 700px;
+	text-align:	center;
+}
+section, aside {
+	float: left;
+}
+section {
+	width: 340px;
+	margin-right: 10px;
+}
+aside {
+	width: 340px;
+	margin-left: 10px;
+}
+aside img {
+	float: left;
+	margin: 5px 5px 0 0;
+}
+h2 {
+	font-size: 1.4em;
+	color: #CC1C0D;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px #999999;
+	text-transform: uppercase;
+}
+h3 {
+	margin-bottom: 0.2em;
+}
+p {
+	margin-top: 0px;
+}

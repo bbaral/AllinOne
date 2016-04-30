@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+div {
+	width: 400px;
+	background: #EDEDED;	
+	padding: 10px;
+	border: 1px solid #929CA4;
+}
+h1 {
+	margin-top: 0em;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+}
+#welcome p {
+	margin-top: 0em;
+	margin-bottom: 0em;
+}

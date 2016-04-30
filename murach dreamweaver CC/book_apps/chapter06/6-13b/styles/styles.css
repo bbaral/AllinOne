@@ -1,0 +1,74 @@
+@charset "utf-8";
+html {
+	background-color: #DFE3E6;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.6em;
+	width: 500px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+}
+h2 {
+	font-size: 1.4em;
+	color: #CC1C0D;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+}
+h3 {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0.4em;
+	margin-left: 0px;
+}
+header {
+	height: 120px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+p {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 1em;
+	margin-left: 0px;
+}
+h3, p {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+nav ul {
+	text-align: center;
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .0px;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
+nav ul li {
+	display: inline;
+	padding-right: 1.4em;
+}
+footer {
+	clear: left;
+}
+footer p {
+	font-size: .9em;
+	text-align: right;
+	margin-bottom: 0px;
+}

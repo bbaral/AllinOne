@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Welcome to Vecta Corporation</title>
+<!-- TemplateEndEditable -->
+<link href="../styles/normalize.css" rel="stylesheet" type="text/css">
+<link href="../styles/styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<header>
+    	<img src="../images/logo.gif" width="170" height="125" alt="" id="logo"/>
+    	<img src="../images/header.gif" alt="" height="155" id="header"/></header>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../aboutus.html">About Us</a></li>
+			<li><a href="../solutions.html">Solutions</a></li>
+			<li><a href="../support.html">Support</a></li>
+			<li><a href="../contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+   	  <section id="section1"><!-- TemplateBeginEditable name="column1_section1" -->column1_section1<!-- TemplateEndEditable -->
+      </section>
+      <section id="section2"><!-- TemplateBeginEditable name="column1_section2" -->column1_section2<!-- TemplateEndEditable -->
+      </section>
+      <section id="solutions"><!-- TemplateBeginRepeat name="solutions" -->
+      <ul>
+        <!-- TemplateBeginEditable name="solution" -->
+          <li>
+			<img src="" width="63" height="36"  alt=""/>
+            <h3>Solution name</h3>
+            <p>Solution description</p>
+		  </li>
+        <!-- TemplateEndEditable -->
+      </ul>
+      <!-- TemplateEndRepeat --></section>
+    </main>
+    <aside id="aside">
+    </aside>
+    <footer>
+    	<p>&copy; Copyright 2014 Vecta Corporation</p>
+    </footer>
+</body>
+</html>
